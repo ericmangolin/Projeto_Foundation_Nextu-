@@ -3,3 +3,23 @@
     border: 1px solid black;
     text-align: center;
 }
+/*----------------------------------------*/
+/* CABEÇALHO */
+#blog-titulo{
+    font-size: 2rem;
+    text-align: initial;
+    font-weight: bold;
+}
+#blog-slogan{
+    font-size: 1.2rem;
+    text-align: end;
+}
+/*----------------------------------------*/
+/* PESQUISA */
+#campo-pesquisar{
+    width: 18rem;
+}
+#ul-pesquisa{
+    justify-content: center;
+}
+/*----------------------------------------*/
