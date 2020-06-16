@@ -1,0 +1,35 @@
+DRINK
+
+<img src="https://img.icons8.com/officel/80/000000/cocktail.png"/>
+
+<a href="https://icons8.com/icon/SDzyQ0njj8qW/coquetel">Coquetel icon by Icons8</a>
+
+CARNE
+
+<img src="https://img.icons8.com/officel/80/000000/steak-rare.png"/>
+
+<a href="https://icons8.com/icon/OIc5mOK0CRfO/bife-raro">Bife Raro icon by Icons8</a>
+
+DOCES
+
+<img src="https://img.icons8.com/officel/80/000000/doughnut.png"/>
+
+<a href="https://icons8.com/icon/UKhnG45ZZMK0/donut">Donut icon by Icons8</a>
+
+MASSAS
+
+<img src="https://img.icons8.com/officel/80/000000/spaghetti.png"/>
+
+<a href="https://icons8.com/icon/VibbTlBFGgYJ/espaguete">Espaguete icon by Icons8</a>
+
+SALADAS
+
+<img src="https://img.icons8.com/officel/80/000000/healthy-food.png"/>
+
+<a href="https://icons8.com/icon/zgRjHKxyLOm4/comida-saudável">Comida Saudável icon by Icons8</a>
+
+BOLOS
+
+<img src="https://img.icons8.com/officel/16/000000/birthday-cake.png"/>
+
+<a href="https://icons8.com/icon/YKwmpqZmx1Lz/bolo-de-aniversário">Bolo de aniversário icon by Icons8</a>

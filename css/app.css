@@ -5,10 +5,12 @@
 }
 /*----------------------------------------*/
 /* CABEÇALHO */
+
 #blog-titulo{
     font-size: 2rem;
     text-align: initial;
     font-weight: bold;
+    display: flex;
 }
 #blog-slogan{
     font-size: 1.2rem;
@@ -16,10 +18,13 @@
 }
 /*----------------------------------------*/
 /* PESQUISA */
-#campo-pesquisar{
-    width: 18rem;
-}
+
 #ul-pesquisa{
     justify-content: center;
 }
+#campo-pesquisar{
+    width: 18rem;
+}
 /*----------------------------------------*/
+
+@queries ()
