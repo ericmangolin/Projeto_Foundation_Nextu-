@@ -1,0 +1,5 @@
+{ color: #F2BB13; }
+{ color: #F28C0F; }
+{ color: #D9A577; }
+{ color: #A61B0F; }
+{ color: #F2F2F2; }
