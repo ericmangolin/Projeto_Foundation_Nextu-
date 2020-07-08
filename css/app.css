@@ -1,34 +1,74 @@
 .columns{
-    border: 1px solid black;
     text-align: center;
+}
+
+#coluna-midias{
+    margin-top: 5%;
 }
 /*----------------------------------------*/
 /* CABEÇALHO */
-
+#coluna-titulo{
+    background-color: #D9A577;
+}
 #blog-titulo{
     font-size: 2rem;
     text-align: initial;
     font-weight: bold;
     display: flex;
+    color: #A61B0F;
 }
 #blog-slogan{
     font-size: 1.2rem;
     text-align: end;
+    color: #F2F2F2;
 }
 /*----------------------------------------*/
 /* PESQUISA */
-
+#coluna-pesquisa{
+    padding: 0rem;
+}
 #ul-pesquisa{
     justify-content: center;
+    width: 100%;
 }
 #campo-pesquisar{
-    width: 18rem;
+    width: 100%;
+    background-color: #D9A577;
+    border: none;
+}
+#campo-pesquisar::placeholder{
+    color: #A61B0F;
+}
+#btn-pesquisar{
+    background-color: #D9A577;
+}
+/*----------------------------------------*/
+/* MENU */
+.menu .is-active > a{
+    background: #A61B0F;
+    color: #F2F2F2;
+}
+a{
+    color: #F2F2F2;
+}
+a:hover{
+    color: #A61B0F;
 }
 /*----------------------------------------*/
 /* ATALHOS */
 
-.div-atalho{
-    padding-top: 2rem;
+#div-atalho > p{
+    color: #A61B0F;
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 1rem;
+}
+.column-block > a{
+    color: #F2F2F2;
+    font-weight: bold;
+}
+.column-block > a:hover{
+    color: #A61B0F;
 }
 /*----------------------------------------*/
 /* LINKS VISITADOS */
@@ -36,16 +76,20 @@
     padding-top: 0.5rem;
     padding-bottom: 1rem;
 }
-
 #links-visitados{
     font-weight: bold;
     font-size: 1.5rem;
+    color: #A61B0F;
 }
 #link-visit{
     padding-bottom: 1rem;
 }
 /*----------------------------------------*/
 /*ARTIGO*/
+#img-artigos{
+    width: 336px;
+    height: 250px;
+}
 .artigo-titulo{
     font-size: 1.5rem;
     text-align: start;
@@ -55,10 +99,42 @@
     font-size: 1rem;
     text-align: start;
 }
+.continualendo{
+    color: #F2BB13;
+}
+.continualendo > a:hover{
+    color: #A61B0F;
+}
+.linkfecha{
+    color: #F2BB13;
+}
+.linkfecha > a:hover{
+    color: #A61B0F;
+}
+#p-fonte{
+    color: #A61B0F;
+}
+#p-fonte > a{
+    color: #F2BB13;
+}
+#p-fonte > a:hover{
+    color: #A61B0F;
+}
+/*----------------------------------------*/
+/*COMENTÁRIOS*/
+#btn-comentarios{
+    color: #F2F2F2;
+    background: #A61B0F;
+}
+#p-comentario{
+    color: #A61B0F;
+    font-size: 1rem;
+    font-weight: bold;
+}
 /*----------------------------------------*/
 /*SEPARADOR*/
-.separador-artigo{
+.separador{
     border: 0px;
-    background-color: #d2d6da;
+    background-color: #F2BB13;
     height: 0.2em;
 }
