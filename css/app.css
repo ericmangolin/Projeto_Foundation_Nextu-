@@ -1,10 +1,6 @@
 .columns{
     text-align: center;
 }
-
-#coluna-midias{
-    margin-top: 5%;
-}
 /*----------------------------------------*/
 /* CABEÇALHO */
 #coluna-titulo{
@@ -15,17 +11,26 @@
     text-align: initial;
     font-weight: bold;
     display: flex;
-    color: #A61B0F;
+    color: #F2BB13;
 }
 #blog-slogan{
     font-size: 1.2rem;
     text-align: end;
     color: #F2F2F2;
 }
+#linha-titulo{
+    background-color: #A61B0F;
+}
+/*----------------------------------------*/
+/* COLUNA MENUS */
+#coluna-titulo{
+    padding: 0px 0px 0px 0px;
+}
 /*----------------------------------------*/
 /* PESQUISA */
 #coluna-pesquisa{
     padding: 0rem;
+    margin-top: 1rem;
 }
 #ul-pesquisa{
     justify-content: center;
@@ -56,7 +61,6 @@ a:hover{
 }
 /*----------------------------------------*/
 /* ATALHOS */
-
 #div-atalho > p{
     color: #A61B0F;
     font-weight: bold;
@@ -86,18 +90,19 @@ a:hover{
 }
 /*----------------------------------------*/
 /*ARTIGO*/
+#div-artigo{
+    background-color: #F2F2F2;
+    padding: 0px 0px 0px 0px;
+}
 #img-artigos{
     width: 336px;
     height: 250px;
 }
-.artigo-titulo{
-    font-size: 1.5rem;
-    text-align: start;
-    margin-bottom: 0px;
+h4{
+    font-weight: bold;
 }
-.artigo-data{
-    font-size: 1rem;
-    text-align: start;
+#texto-artigo{
+    text-align: justify;
 }
 .continualendo{
     color: #F2BB13;
@@ -122,19 +127,55 @@ a:hover{
 }
 /*----------------------------------------*/
 /*COMENTÁRIOS*/
-#btn-comentarios{
-    color: #F2F2F2;
-    background: #A61B0F;
-}
+
 #p-comentario{
     color: #A61B0F;
     font-size: 1rem;
     font-weight: bold;
+    margin: 0rem 0rem 1rem 0rem;
 }
+#linha-comentarios{
+    background-color: #F2BB13;
+    margin: 0rem 0rem;
+}
+#coluna-comentarios{
+    padding: 0.5rem 0rem 0rem 0.5rem;
+}
+#coluna-comentarios-interna1{
+    padding: 0rem 0rem 0rem 0rem;
+}
+#coluna-comentarios-interna2{
+    padding: 3rem 1rem 0rem 0rem;
+}
+#btn-comentarios{
+    color: #F2F2F2;
+    background: #A61B0F;
+    font-weight: bold;
+    margin: 0rem 0rem 0rem 0rem;
+}
+#coluna-midias{
+    border: solid black 1px;
+    padding: 0.5rem 0rem 0rem 0em;
+}
+#icon-midias{
+    padding-right: 1.5rem;
+}
+
 /*----------------------------------------*/
 /*SEPARADOR*/
 .separador{
     border: 0px;
     background-color: #F2BB13;
     height: 0.2em;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+.separador-escuro{
+    border: 0px;
+    background-color: #A61B0F;
+    height: 0.2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
