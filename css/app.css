@@ -92,7 +92,7 @@ a:hover{
 /*ARTIGO*/
 #div-artigo{
     background-color: #F2F2F2;
-    padding: 0px 0px 0px 0px;
+    padding: 0rem 2rem 0rem 2rem;
 }
 #img-artigos{
     width: 336px;
@@ -154,7 +154,6 @@ h4{
     margin: 0rem 0rem 0rem 0rem;
 }
 #coluna-midias{
-    border: solid black 1px;
     padding: 0.5rem 0rem 0rem 0em;
 }
 #icon-midias{
